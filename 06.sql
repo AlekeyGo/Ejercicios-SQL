@@ -1,0 +1,1 @@
+SELECT SUM(total_venta) AS monto_total_historia FROM ventas
