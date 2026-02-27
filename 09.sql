@@ -1,0 +1,1 @@
+SELECT id_venta, total_venta FROM ventas WHERE total_venta = (SELECT MAX(total_venta) FROM ventas)

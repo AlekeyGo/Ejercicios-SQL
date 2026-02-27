@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS total_uso_cupon FROM ventas WHERE cupon_usado = 'ULTIMO_SUSPIRO'
